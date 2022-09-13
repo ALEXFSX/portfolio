@@ -1,0 +1,29 @@
+/*------------------
+|  layout  
+|------------------*/
+.#{$prefix}-container {
+  $self: &;
+
+  margin: 0 20px;
+  width: calc(100% - 40px);
+  @media only screen and (min-width: 1350px) {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+}
+
+/*------------------
+|  row  
+|------------------*/
+.#{$prefix}-row {
+  $self: &;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}

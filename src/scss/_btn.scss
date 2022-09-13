@@ -1,0 +1,30 @@
+/*------------------
+|  btn  
+|------------------*/
+.#{$prefix}-btn {
+  $self: &;
+
+  background: rgb(0, 45, 190);
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 400;
+  display: inline-block;
+  text-align: center;
+  user-select:none;
+  &--cta {
+    color: rgb(0, 45, 190);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(0, 45, 190, 1) 50%,
+      rgba(0, 45, 190, 1) 100%
+    );
+    background-size: 200%;
+    background-position: 0%;
+    transition: all 0.2s ease-in-out;
+  }
+}
