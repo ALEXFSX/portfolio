@@ -32,18 +32,32 @@ export const projects: Project[] = [
   ] 
 },
 
+
+
   {
-    id: "123-questoes",
-    title: "123 Questões",
-    description: "Plataforma de questões para concursos públicos e exames.",
-    longDescription: "O 123Questões é uma plataforma online para preparação de concursos públicos, com mais de 1.500.000 questões disponíveis. Permite a criação de simulados personalizados com filtros por banca, disciplina e dificuldade, simulando o ambiente real de prova. Desenvolvida com Next.js, React e TypeScript, utiliza REST API para consumo de dados, Prism para realce de código e Jest para testes automatizados, com foco em performance, escalabilidade e experiência do usuário.",
-    thumbnail: "/projects/123questoes-cover.png",
-    previewUrl: "https://app.123questoes.com.br/questions/",
+  id: "123questoes",
+  title: "123Questões – Plataforma de Simulados",
+  description: "Plataforma online de simulados para concursos públicos.",
+  longDescription: "Desenvolvimento de uma plataforma de simulados para concursos públicos com mais de 1.500.000 questões disponíveis. O sistema permite a criação de simulados personalizados com filtros por banca, disciplina e nível de dificuldade, simulando o ambiente real de prova. Aplicação focada em performance, escalabilidade, experiência do usuário e acompanhamento de desempenho.",
+ thumbnail: "/projects/123questoes-cover.png",
+  technologies: ["Next.js", "React", "TypeScript", "REST API", "Prism", "Jest"],
+  category: "Educação",
+   previewUrl: "https://app.123questoes.com.br/questions/",
     liveUrl: "https://app.123questoes.com.br/questions/",
-    technologies: ["React", "Redux", "TypeScript", "CSS"],
-    category: "Educação",
-    year: "2024"
-  },
+  year: "2024"
+},
+{
+  id: "aiks-ai",
+  title: "AIKS – Site Institucional com Chatbot de IA",
+  description: "Site institucional com foco em navegação e comunicação inteligente.",
+  longDescription: "Desenvolvimento do site institucional da AIKS utilizando WordPress, com foco em navegação clara, organização de conteúdo e experiência do usuário. O projeto conta com a integração de um chatbot com inteligência artificial para melhorar a comunicação com clientes, oferecendo respostas rápidas, suporte inicial e maior engajamento.",
+  thumbnail: "/projects/aiks-crop.gif",
+  technologies: ["WordPress", "PHP", "JavaScript", "HTML", "CSS", "Chatbot com IA"],
+  category: "Institucional",
+   previewUrl: "https://aiks.com.br",
+    liveUrl: "https://aiks.com.br",
+  year: "2024"
+},
 
   {
     id: "fluency-academy",
