@@ -32,6 +32,33 @@ export const projects: Project[] = [
   ] 
 },
 
+
+
+  {
+  id: "123questoes",
+  title: "123Questões – Plataforma de Simulados",
+  description: "Plataforma online de simulados para concursos públicos.",
+  longDescription: "Desenvolvimento de uma plataforma de simulados para concursos públicos com mais de 1.500.000 questões disponíveis. O sistema permite a criação de simulados personalizados com filtros por banca, disciplina e nível de dificuldade, simulando o ambiente real de prova. Aplicação focada em performance, escalabilidade, experiência do usuário e acompanhamento de desempenho.",
+ thumbnail: "/projects/123questoes-cover.png",
+  technologies: ["Next.js", "React", "TypeScript", "REST API", "Prism", "Jest"],
+  category: "Educação",
+   previewUrl: "https://app.123questoes.com.br/questions/",
+    liveUrl: "https://app.123questoes.com.br/questions/",
+  year: "2024"
+},
+{
+  id: "aiks-ai",
+  title: "AIKS – Site Institucional com Chatbot de IA",
+  description: "Site institucional com foco em navegação e comunicação inteligente.",
+  longDescription: "Desenvolvimento do site institucional da AIKS utilizando WordPress, com foco em navegação clara, organização de conteúdo e experiência do usuário. O projeto conta com a integração de um chatbot com inteligência artificial para melhorar a comunicação com clientes, oferecendo respostas rápidas, suporte inicial e maior engajamento.",
+  thumbnail: "/projects/aiks-crop.gif",
+  technologies: ["WordPress", "PHP", "JavaScript", "HTML", "CSS", "Chatbot com IA"],
+  category: "Institucional",
+   previewUrl: "https://aiks.com.br",
+    liveUrl: "https://aiks.com.br",
+  year: "2024"
+},
+
   {
     id: "fluency-academy",
     title: "Fluency Academy",
@@ -49,7 +76,7 @@ export const projects: Project[] = [
     title: "Betway Brasil",
     description: "Plataforma de apostas esportivas com interface moderna e responsiva.",
     longDescription: "Desenvolvimento de interfaces headless utilizando React/Next.js integrado com WordPress como CMS. Implementação de soluções escaláveis e performáticas, com integração de APIs RESTful e GraphQL para consumo de dados dinâmicos.",
-    thumbnail: "/projects/betway.jpg",
+    thumbnail: "/projects/fluency.jpg",
     previewUrl: "https://betway.com.br",
     liveUrl: "https://betway.com.br",
     technologies: ["Next.js", "React", "GraphQL", "WordPress"],
@@ -61,7 +88,7 @@ export const projects: Project[] = [
     title: "Gizmodo Brasil",
     description: "Portal de tecnologia e cultura geek com milhões de acessos mensais.",
     longDescription: "Desenvolvimento de sistema headless com React/Next.js e WordPress, focando em performance e SEO técnico. Implementação de práticas avançadas de otimização e colaboração em equipe multidisciplinar.",
-    thumbnail: "/projects/gizmodo.jpg",
+    thumbnail: "/projects/fluency.jpg",
     previewUrl: "https://gizmodo.uol.com.br",
     liveUrl: "https://gizmodo.uol.com.br",
     technologies: ["Next.js", "React", "WordPress", "SEO"],
@@ -74,7 +101,7 @@ export const projects: Project[] = [
     title: "Landing Pages de Alta Conversão",
     description: "Coleção de landing pages otimizadas para captação de leads.",
     longDescription: "Desenvolvimento de mais de 50 landing pages otimizadas para conversão durante atuação na Convertte Digital. Integração de sistemas de captação de leads, desenvolvimento de CMS personalizado e documentação completa dos projetos.",
-    thumbnail: "/projects/landingpages.jpg",
+    thumbnail: "/projects/fluency.jpg",
     technologies: ["HTML", "CSS", "JavaScript", "Vue.js", "Bootstrap"],
     category: "Marketing",
     year: "2021"
@@ -84,9 +111,11 @@ export const projects: Project[] = [
     title: "CMS Personalizado",
     description: "Sistema de gerenciamento de conteúdo desenvolvido do zero.",
     longDescription: "Desenvolvimento de CMS completo com painel administrativo, gestão de usuários, e sistema de templates. Construído com PHP e MySQL, oferecendo alta customização e performance.",
-    thumbnail: "/projects/cms.jpg",
+    thumbnail: "/projects/fluency.jpg",
     technologies: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
     category: "Sistema",
     year: "2020"
-  }
+  },
+
+
 ];
