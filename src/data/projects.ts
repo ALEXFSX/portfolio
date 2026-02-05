@@ -33,6 +33,19 @@ export const projects: Project[] = [
 },
 
   {
+    id: "123-questoes",
+    title: "123 Questões",
+    description: "Plataforma de questões para concursos públicos e exames.",
+    longDescription: "O 123Questões é uma plataforma online para preparação de concursos públicos, com mais de 1.500.000 questões disponíveis. Permite a criação de simulados personalizados com filtros por banca, disciplina e dificuldade, simulando o ambiente real de prova. Desenvolvida com Next.js, React e TypeScript, utiliza REST API para consumo de dados, Prism para realce de código e Jest para testes automatizados, com foco em performance, escalabilidade e experiência do usuário.",
+    thumbnail: "/projects/123questoes-cover.png",
+    previewUrl: "https://app.123questoes.com.br/questions/",
+    liveUrl: "https://app.123questoes.com.br/questions/",
+    technologies: ["React", "Redux", "TypeScript", "CSS"],
+    category: "Educação",
+    year: "2024"
+  },
+
+  {
     id: "fluency-academy",
     title: "Fluency Academy",
     description: "Plataforma educacional para escola de inglês com foco em conversão de leads.",
@@ -49,7 +62,7 @@ export const projects: Project[] = [
     title: "Betway Brasil",
     description: "Plataforma de apostas esportivas com interface moderna e responsiva.",
     longDescription: "Desenvolvimento de interfaces headless utilizando React/Next.js integrado com WordPress como CMS. Implementação de soluções escaláveis e performáticas, com integração de APIs RESTful e GraphQL para consumo de dados dinâmicos.",
-    thumbnail: "/projects/betway.jpg",
+    thumbnail: "/projects/fluency.jpg",
     previewUrl: "https://betway.com.br",
     liveUrl: "https://betway.com.br",
     technologies: ["Next.js", "React", "GraphQL", "WordPress"],
@@ -61,7 +74,7 @@ export const projects: Project[] = [
     title: "Gizmodo Brasil",
     description: "Portal de tecnologia e cultura geek com milhões de acessos mensais.",
     longDescription: "Desenvolvimento de sistema headless com React/Next.js e WordPress, focando em performance e SEO técnico. Implementação de práticas avançadas de otimização e colaboração em equipe multidisciplinar.",
-    thumbnail: "/projects/gizmodo.jpg",
+    thumbnail: "/projects/fluency.jpg",
     previewUrl: "https://gizmodo.uol.com.br",
     liveUrl: "https://gizmodo.uol.com.br",
     technologies: ["Next.js", "React", "WordPress", "SEO"],
@@ -74,7 +87,7 @@ export const projects: Project[] = [
     title: "Landing Pages de Alta Conversão",
     description: "Coleção de landing pages otimizadas para captação de leads.",
     longDescription: "Desenvolvimento de mais de 50 landing pages otimizadas para conversão durante atuação na Convertte Digital. Integração de sistemas de captação de leads, desenvolvimento de CMS personalizado e documentação completa dos projetos.",
-    thumbnail: "/projects/landingpages.jpg",
+    thumbnail: "/projects/fluency.jpg",
     technologies: ["HTML", "CSS", "JavaScript", "Vue.js", "Bootstrap"],
     category: "Marketing",
     year: "2021"
@@ -84,9 +97,11 @@ export const projects: Project[] = [
     title: "CMS Personalizado",
     description: "Sistema de gerenciamento de conteúdo desenvolvido do zero.",
     longDescription: "Desenvolvimento de CMS completo com painel administrativo, gestão de usuários, e sistema de templates. Construído com PHP e MySQL, oferecendo alta customização e performance.",
-    thumbnail: "/projects/cms.jpg",
+    thumbnail: "/projects/fluency.jpg",
     technologies: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
     category: "Sistema",
     year: "2020"
-  }
+  },
+
+
 ];
