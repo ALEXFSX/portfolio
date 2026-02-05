@@ -54,8 +54,8 @@ export const projects: Project[] = [
   thumbnail: "/projects/aiks-crop.gif",
   technologies: ["WordPress", "PHP", "JavaScript", "HTML", "CSS", "Chatbot com IA"],
   category: "Institucional",
-   previewUrl: "https://aiks.com.br",
-    liveUrl: "https://aiks.com.br",
+   previewUrl: "https://aiks.ai/",
+    liveUrl: "https://aiks.ai/",
   year: "2024"
 },
 
