@@ -24,8 +24,8 @@ const ContactSection = () => {
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: "https://linkedin.com/in/alexfreitas", label: "LinkedIn" },
-    { icon: Github, href: "https://github.com/alexfreitas", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/alex-frs/", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/ALEXFSX", label: "GitHub" },
   ];
 
   return (
